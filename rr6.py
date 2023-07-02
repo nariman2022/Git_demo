@@ -17,3 +17,6 @@ class Pitbull(Dog):
 
     def __init__(self, name, height, weight):
         super().__init__(name, height, weight)
+
+    def make_sound(self):
+        return "Gaff-Gaff-Gaff"
